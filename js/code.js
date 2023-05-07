@@ -68,7 +68,7 @@ function iniciarStore() {
 2. Instalacion De OS
 3. Desarrollo Web
 4. Shop${carritoVacio}
-9. Salir`
+0. Salir`
     )
     );
     switch (seleccionCategoria) {
@@ -91,8 +91,8 @@ function iniciarStore() {
         verCarrito();
         }
         break;
-    case 9:
-        alert("Gracias por visitarnos, vuelve pronto");
+    case 0:
+        alert("Gracias por visitar JJTR co., vuelve pronto");
         break;
     default:
         redireccionarATienda();
